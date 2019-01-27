@@ -8,7 +8,7 @@ RUN apt-get update \
 
 ADD ./instantclient-basiclite-linux.x64-18.3.0.0.0dbru.zip \
     ./app.py \
-	   /app/
+     /app/
 
 WORKDIR /app
 RUN unzip instantclient-basiclite-linux.x64-18.3.0.0.0dbru.zip \
