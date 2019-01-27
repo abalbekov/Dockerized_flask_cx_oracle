@@ -1,2 +1,2 @@
 # flask_cx_oracle
-experiments with Flask, cx_oracle and Oracle Instant Client
+experiments with Docker Container to run Python + Flask + cx_oracle + Oracle Instant Client
