@@ -29,11 +29,11 @@ docker run -d --rm --name app -p 5000:5000 --link ora122:oradb flask_cx_oracle
 ```
 where
 ```
-      -d,                    : Run container in background
-      --rm                   : remove the container when it exits
-      -p 5000:5000           : publish container port 5000 as host port 5000
-      -- link ora122:oradb   : assuming that target Oracle db is running in another container named "ora122", 
-                               make ora122 visible to container "app" under "oradb" alias                        
+-d,                    : Run container in background
+--rm                   : remove the container when it exits
+-p 5000:5000           : publish container port 5000 as host port 5000
+-- link ora122:oradb   : assuming that target Oracle db is running in another container named "ora122", 
+                         make ora122 visible to container "app" under "oradb" alias                        
 ```  
 6. Check application response from within own container:
 ```
