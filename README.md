@@ -1,8 +1,8 @@
 
-This example creates a Docker image with Python + Flask + cx_oracle + Oracle Instant Client
+This example creates a Docker image with Python + Flask + cx_oracle + Oracle Instant Client.
 The example assumes Docker runtime is already installed.
 
-To run the example
+To run the example :
 
 1. Create new project directory
 ```
@@ -14,9 +14,9 @@ cd flask_cx_oracle
 ```
 instantclient-basiclite-linux.x64-18.3.0.0.0dbru.zip
 ```
-and place it into project directory
+and place it into project directory.
 
-3. Place Dockerfile and app.py file from this example in the project directory
+3. Place Dockerfile and app.py file from this example in the project directory.
 
 4. Create docker image named flask_cx_oracle :
 ```
